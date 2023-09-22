@@ -1,7 +1,12 @@
-function App() {
-  return (
-    <h1>Hello from App</h1>
-  );
-}
+import harvardArt from "./data/harvardArt";
 
-export default App;
+function App() {
+    {console.log(harvardArt)}
+    return (
+        <>
+        <h1>Hello from App</h1>
+        </>
+    );
+  }
+
+  export default App;
