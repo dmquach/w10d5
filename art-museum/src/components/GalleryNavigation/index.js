@@ -4,7 +4,7 @@ import './GalleryNavigation.css';
 
 function GalleryNavigation({galleries}) {
     const galleryItems = Object.values(galleries).map((item) => {
-        return <NavLink to="/galleries/{item.id}" key={item.id}>{item.name}</NavLink>
+        return <NavLink to={`/galleries/${item.id}`} key={item.id}>{item.name}</NavLink>
     })
     // useParams?
 
